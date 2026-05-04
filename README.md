@@ -1,5 +1,7 @@
 # RP02 - Infrastructure Serveur Classcord
 
+> 🌐 **Aperçu Visuel :** Retrouvez une présentation illustrée de ce projet sur mon portfolio : [edib16.github.io/Portfolio/#RP02](https://edib16.github.io/Portfolio/#RP02)
+
 > **Auteur :** Edib Saoud
 > **Date :** 06/2025
 > **Contexte :** Projet inter-spécialités (BTS SIO SISR/SLAM) - IRIS Mediaschool
