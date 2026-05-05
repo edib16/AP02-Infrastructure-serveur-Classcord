@@ -1,6 +1,6 @@
-# RP02 - Infrastructure Serveur Classcord
+# Application Professionnelle (AP02) - Infrastructure Serveur Classcord
 
-> 🌐 **Aperçu Visuel :** Retrouvez une présentation illustrée de ce projet sur mon portfolio : [edib16.github.io/Portfolio/#RP02](https://edib16.github.io/Portfolio/#RP02)
+> 🌐 **Aperçu Visuel :** Retrouvez une présentation illustrée de ce projet sur mon portfolio : [edib16.github.io/Portfolio/#AP02](https://edib16.github.io/Portfolio/#AP02)
 
 > **Auteur :** Edib Saoud
 > **Date :** 06/2025
@@ -28,28 +28,28 @@ L'objectif (SISR) était de concevoir, déployer et sécuriser un serveur dédi�
 | | **Mettre à disposition un service informatique** | Installation et configuration d'un environnement d'hébergement web complet et de base de données. |
 | **Bloc 3 : Cybersécurité des services informatiques** | **Protéger l'infrastructure de l'organisation** | Durcissement de l'OS, configuration d'un pare-feu local (UFW) et sécurisation SSH. |
 
-## 4. Planning de Réalisation (Diagramme de Gantt)
+## 4. Planning de Realisation (Gantt)
 
 Le projet s'est déroulé sur une période intensive de 5 jours en mode itératif (Sprint) :
 
 ```mermaid
 gantt
-    title Planning du Déploiement Infra Classcord
+    title Planning du Deploiement Infra Classcord
     dateFormat  YYYY-MM-DD
     axisFormat  %d/%m
     
     section Cadrage
-    Analyse besoins SLAM & Réseau   :done,    des1, 2025-06-16, 1d
+    Analyse besoins SLAM et Reseau   :done,    des1, 2025-06-16, 1d
     
-    section Déploiement
+    section Deploiement
     Installation OS Debian 12       :active,  des2, 2025-06-17, 1d
-    Configuration IP & UFW          :         des3, after des2, 1d
+    Configuration IP et UFW         :         des3, after des2, 1d
     
-    section Intégration
-    Préparation de l'environnement  :         des4, 2025-06-18, 1d
-    Test de déploiement SLAM        :         des5, 2025-06-19, 1d
+    section Integration
+    Preparation environnement       :         des4, 2025-06-18, 1d
+    Test de deploiement SLAM        :         des5, 2025-06-19, 1d
     
     section Validation
-    Tests charge & sécurité         :         des6, 2025-06-20, 1d
-    Documentation d'exploitation    :         des7, 2025-06-20, 1d
+    Tests charge et securite        :         des6, 2025-06-20, 1d
+    Documentation exploitation      :         des7, 2025-06-20, 1d
 ```
