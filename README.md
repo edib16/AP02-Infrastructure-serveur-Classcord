@@ -28,28 +28,12 @@ L'objectif (SISR) était de concevoir, déployer et sécuriser un serveur dédi�
 | | **Mettre à disposition un service informatique** | Installation et configuration d'un environnement d'hébergement web complet et de base de données. |
 | **Bloc 3 : Cybersécurité des services informatiques** | **Protéger l'infrastructure de l'organisation** | Durcissement de l'OS, configuration d'un pare-feu local (UFW) et sécurisation SSH. |
 
-## 4. Planning de Realisation (Gantt)
+## 4. Phases de Mise en Oeuvre
 
-Le projet s'est déroulé sur une période intensive de 5 jours en mode itératif (Sprint) :
-
-```mermaid
-gantt
-    title Planning du Deploiement Infra Classcord
-    dateFormat  YYYY-MM-DD
-    axisFormat  %d/%m
-    
-    section Cadrage
-    Analyse besoins SLAM et Reseau   :done,    des1, 2025-06-16, 1d
-    
-    section Deploiement
-    Installation OS Debian 12       :active,  des2, 2025-06-17, 1d
-    Configuration IP et UFW         :         des3, after des2, 1d
-    
-    section Integration
-    Preparation environnement       :         des4, 2025-06-18, 1d
-    Test de deploiement SLAM        :         des5, 2025-06-19, 1d
-    
-    section Validation
-    Tests charge et securite        :         des6, 2025-06-20, 1d
-    Documentation exploitation      :         des7, 2025-06-20, 1d
-```
+| Étape | Description Technique | État |
+|:---|:---|:---:|
+| **Cadrage** | Analyse des prérequis applicatifs SLAM et design de l'architecture. | ✅ |
+| **Déploiement** | Installation de Debian 12, configuration IP statique et sécurisation SSH. | ✅ |
+| **Réseau** | Paramétrage du pare-feu UFW et isolation des flux. | ✅ |
+| **Intégration** | Préparation de l'environnement pour l'équipe de développement. | ✅ |
+| **Recette** | Tests de montée en charge et audit de sécurité. | ✅ |
